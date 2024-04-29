@@ -1,0 +1,1 @@
+require("vinson.plugins.colorscheme")
