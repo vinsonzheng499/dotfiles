@@ -1,0 +1,11 @@
+font-family = menlo
+font-size = 26
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-style-blink = false
+cursor-click-to-move = true
+clipboard-read = allow
+clipboard-write = allow
+clipboard-trim-trailing-spaces = true
+shell-integration = zsh
+macos-titlebar-style = tabs
