@@ -1,0 +1,53 @@
+{
+  // General
+  "editor.fontSize": 23,
+  "editor.fontFamily": "Iosevka",
+  "editor.fontLigatures": false,
+  "terminal.integrated.fontSize": 23,
+  "terminal.integrated.fontFamily": "Iosevka",
+  "editor.rulers": [80, 100, 120],
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.lineNumbers": "relative",
+  "editor.minimap.enabled": false,
+  "vim.smartRelativeLine": true,
+  "telemetry.telemetryLevel": "off",
+  "workbench.sideBar.location": "right",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "window.customTitleBarVisibility": "windowed",
+  "breadcrumbs.enabled": false,
+  "editor.renderWhitespace": "none",
+  "workbench.activityBar.location": "top",
+  "workbench.editor.enablePreview": false,
+  "markdown.preview.fontSize": 23,
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  // Syntax Highlighting
+  "gopls": {
+    "ui.semanticTokens": true
+  },
+  // Formatters
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": false
+  }
+}
