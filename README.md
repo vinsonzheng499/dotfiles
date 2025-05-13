@@ -1,5 +1,9 @@
 # Repository for setting up my developer workflow on new computers
 ## macOS Instructions
+### Allow for key repeating
+```
+defaults write -g ApplePressAndHoldEnabled -bool false
+```
 ### Xcode CLI Tools
 ```
 xcode-select --install
