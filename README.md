@@ -1,41 +1,52 @@
 # Repository for setting up my developer workflow for new computers
 ## macOS Instructions
-Xcode CLI Tools
+### Xcode CLI Tools
 ```
 xcode-select --install
 ```
-Homebrew
+### Homebrew
+Installation
 ```
-// Installation
+echo Hello
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-// Export Formulae/Casks
+```
+Export Formulae/Casks
+```
 brew bundle dump --describe --file=~/dotfiles/Brewfile --force
-// Import Formulae/Casks
+```
+Import Formulae/Casks
+```
 brew bundle --file=~/dotfiles/Brewfile
 ```
-Stow
+### Stow
+Installation
 ```
-// Installation
 brew install stow
-// Usage
+```
+Usage
+```
 stow ~/dotfiles/directory
 stow -D ~/dotfiles/directory
 Stowing something creates a symlink starting inside the stowed directory
 ```
-Terminal Emulator
+### Terminal Emulator
 ```
 brew install --cask ghostty
 ```
-Oh My Zsh
+### Oh My Zsh
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-VS Code
+### VS Code
+Installation
 ```
-// Installation
 brew install --cask visual-studio-code
-// Export Extensions
+```
+Export Extensions
+```
 code --list-extensions > vscode-extensions.txt
-// Import Extensions
+```
+Import Extensions
+```
 xargs -n 1 code --install-extension < vscode-extensions.txt
 ```
