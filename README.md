@@ -1,4 +1,4 @@
-# Repository for setting up my developer workflow for new computers
+# Repository for setting up my developer workflow on new computers
 ## macOS Instructions
 ### Xcode CLI Tools
 ```
@@ -7,7 +7,6 @@ xcode-select --install
 ### Homebrew
 Installation
 ```
-echo Hello
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 Export Formulae/Casks
