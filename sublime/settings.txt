@@ -1,0 +1,21 @@
+{
+	"theme": "Adaptive.sublime-theme",
+	"font_size": 26,
+	"translate_tabs_to_spaces": true,
+	"font_face": "Menlo",
+	"color_scheme": "Mariana.sublime-color-scheme",
+
+	// Vi motions
+	"vintage_start_in_command_mode": true,
+	"vintage_use_clipboard": true,
+	"vintage_ctrl_keys": true,
+	"relative_line_numbers": true,
+	"ignored_packages": [],
+
+	// Word wrap
+	"rulers": [80],
+	"word_wrap": "true",
+    "wrap_width": 80,
+    "word_wrap_column": 80,
+    "ruler_style": "solid",
+}
